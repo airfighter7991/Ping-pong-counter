@@ -30,19 +30,63 @@ body{
 }
 
 a{
-    background: linear-gradient(#81a2db,#356ed1,#356ed1,#356ed1);
-    text-decoration:none;
-    cursor: default;
-    color: aliceblue;
-    padding: 5px;
-    margin: auto;
-    margin-right: 2px;
-    margin-top: 2px;
+    background: linear-gradient(#7c859a,#455480,#455480,#455480);
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 0px;
     border-radius: 5px;
+    
 }
 
 .header p {
     position:relative;
     margin-top: 2px;
     text-align: end;
+}
+
+.alert{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: #25345b;
+    width: 200px;
+    border-radius: 10px;
+    border: solid, 2px;
+    padding-bottom: 14px;
+}
+
+button{
+        background: linear-gradient(#81a2db,#356ed1,#356ed1,#356ed1);
+        text-decoration:none;
+        cursor: default;
+        color: aliceblue;
+        padding: 5px;
+        margin: auto;
+        margin-right: 2px;
+        margin-top: 2px;
+        border-radius: 5px;
+        border: none;
+}
+
+.disagree_button{
+    background: linear-gradient(#a7adbd,#6c768c,#6c768c,#6c768c);
+}
+
+#wind{
+    display: none;
+    background-color: #02020289;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    animation: wind 400ms;
+}
+@keyframes wind { /* Сама анимация */
+    0% {                /* Старт анимации */
+        opacity: 0;
+    }
+    100% {              /* в финале анимации - финал это заданная 0.55s */
+        opacity: 1;
+    }
 }

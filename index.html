@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="header"><p>Пинг-понг счетчик</p><a href="">О создателе</a></div>
+    <div class="header"><p>Пинг-понг счетчик</p><button>О создателе</button></div>
     <div id="main_frame">
         <div onclick="inc('l')" class="left"><p id="lft">left</p></div>
         <div onclick="inc()" class="right"><p id="rght">right</p></div>
+    </div>
+    <div id="wind">
+        <div class="alert">
+            <p><b>Победа</b></p>
+            <p id="caption">gjlsljd</p>
+            <br/>
+            <a onclick="cl()" class="disagree_button">Закрыть</a>
+            <a href=""class="agree_button">Новая игра</a>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>

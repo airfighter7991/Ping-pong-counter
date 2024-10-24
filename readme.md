@@ -3,4 +3,4 @@
 - Just tap on numbers for change the score.
 - When you achieve 21 score the play will be paused. You can continue game if you want.
 ## Languages
-Now it's support only russian. I will add new languarges in futher.
+Now it's support only russian. I will add new languarges in further.
